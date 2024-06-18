@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Pokedex</title>
+  </head> 
+<p>
+Nome do Pokémon: <input type="text" id="nome" />
+</p>
+<p>
+Tipo do Pokémon: <input type="text" id="tipo" />
+</p>
+<p>
+Nível do Pokémon: <input type="text" id="nivel" />
+</p>
+<p>
+Descrição do Pokémon: <input type="text" id="descricao" />
+</p>
+<p>
+URL da imagem do Pokémon: <textarea id="imagem"></textarea>
+</p>
+<p>
+<button id="registrar">
+Registrar Pokémon
+</button>
+</p>
+
+<template id="modelo">
+<div class="pokedex_wrapper">
+  <div class="pokedex_container">
+    <span class="nome_pokemon" id = "nome">Nome: </span><br />
+    <span class="tipo_pokemon" id = "tipo">Tipo: </span><br />
+    <span class="nivel_pokemon" id= "nivel">Nível: </span><br />
+    <span class="descricao_pokemon" id = "descricao"">Descrição: </span><br />
+  </div>
+  <img src="images (1).jpeg" class="pokedex_imagem"/>
+</div>
+</template>
+    <script src="script.js"></script>
+</html>
